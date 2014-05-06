@@ -1,0 +1,89 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class PlayerMovement : MonoBehaviour 
+{
+	public AudioClip shoutingClip;
+	public float turnSmoothing =15f;
+	public float speedDampTime = 0.1f;
+
+	private Animator anim;
+	private HashIDs hash;
+
+	void Awake()
+	{
+		anim = GetComponent<Animator> ();
+		hash = GameObject.FindGameObjectWithTag(Tags.gameController).GetComponent<HashIDs> ();
+
+		anim.SetLayerWeight (1, 1f);
+
+	}
+
+	void Update ()
+	{
+		// Cache the attention attracting input.
+		bool shout = Input.GetButtonDown("Attract");
+		
+		// Set the animator shouting parameter.
+		anim.SetBool(hash.shoutingBool, shout);
+		
+		AudioManagement(shout);
+	}
+
+	void FixedUpdate()
+	{
+		float h = Input.GetAxis ("Horizontal");
+		float v = Input.GetAxis ("Vertical");
+		bool sneak = Input.GetButton ("Sneak");
+
+		MovementManagement (h, v, sneak);
+	}
+
+	void MovementManagement(float horizontal, float vertical, bool sneaking)
+	{
+		anim.SetBool (hash.sneakingBool, sneaking);
+
+		if(horizontal != 0f || vertical !=0f)
+		{
+			Rotating(horizontal, vertical);
+			anim.SetFloat(hash.speedFloat, 5.5f, speedDampTime, Time.deltaTime );
+		}
+		else
+		{
+			anim.SetFloat(hash.speedFloat, 0f);
+		}
+	}
+
+	void Rotating(float horizontal, float vertical)
+	{
+		Vector3 targetDirection = new Vector3 (horizontal, 0f, vertical);
+
+		Quaternion targetRotation = Quaternion.LookRotation (targetDirection, Vector3.up);
+		Quaternion newRotation = Quaternion.Lerp (rigidbody.rotation, targetRotation, turnSmoothing * Time.deltaTime);
+
+		rigidbody.MoveRotation (newRotation);
+
+	}
+
+	void AudioManagement (bool shout)
+	{
+		// If the player is currently in the run state...
+		if(anim.GetCurrentAnimatorStateInfo(0).nameHash == hash.locomotionState)
+		{
+			// ... and if the footsteps are not playing...
+			if(!audio.isPlaying)
+				// ... play them.
+				audio.Play();
+		}
+		else
+			// Otherwise stop the footsteps.
+			audio.Stop();
+		
+		// If the shout input has been pressed...
+		if(shout)
+			// ... play the shouting clip where we are.
+			AudioSource.PlayClipAtPoint(shoutingClip, transform.position);
+	}
+
+
+}

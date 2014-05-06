@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 15cce373590166b4d817b43b69e477b2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Street Sweeper Bip01
+    100002: Street Sweeper Bip01 Spine2
+    100004: Street Sweeper Broom Bone01_
+    100006: Street Sweeper Broom Bone02
+    100008: Street Sweeper Broom Bone03
+    100010: Street Sweeper Broom Contrl
+    100012: Street Sweeper Head
+    100014: Street Sweeper HeadNub
+    100016: Street Sweeper L Calf
+    100018: Street Sweeper L Clavicle
+    100020: Street Sweeper L Finger0
+    100022: Street Sweeper L Finger01
+    100024: Street Sweeper L Finger0Nub
+    100026: Street Sweeper L Finger1
+    100028: Street Sweeper L Finger11
+    100030: Street Sweeper L Finger1Nub
+    100032: Street Sweeper L Foot
+    100034: Street Sweeper L Forearm
+    100036: Street Sweeper L Hand
+    100038: Street Sweeper L Thigh
+    100040: Street Sweeper L Toe0
+    100042: Street Sweeper L Toe0Nub
+    100044: Street Sweeper L UpperArm
+    100046: Street Sweeper Neck
+    100048: Street Sweeper Pelvis
+    100050: Street Sweeper R Calf
+    100052: Street Sweeper R Clavicle
+    100054: Street Sweeper R Finger0
+    100056: Street Sweeper R Finger01
+    100058: Street Sweeper R Finger0Nub
+    100060: Street Sweeper R Finger1
+    100062: Street Sweeper R Finger11
+    100064: Street Sweeper R Finger1Nub
+    100066: Street Sweeper R Foot
+    100068: Street Sweeper R Forearm
+    100070: Street Sweeper R Hand
+    100072: Street Sweeper R Thigh
+    100074: Street Sweeper R Toe0
+    100076: Street Sweeper R Toe0Nub
+    100078: Street Sweeper R UpperArm
+    100080: Street Sweeper Spine
+    100082: Street Sweeper Spine1
+    100084: Street Sweeper talk chin
+    100086: Street Sweeper talk lower lip01
+    100088: Street Sweeper talk lower lip02
+    100090: Street Sweeper talk mouth l01
+    100092: Street Sweeper talk mouth l02
+    100094: Street Sweeper talk mouth r01
+    100096: Street Sweeper talk mouth r02
+    100098: Street Sweeper talk upper lip01
+    100100: Street Sweeper talk upper lip02
+    100102: Street Sweeper X_l01
+    100104: Street Sweeper X_l02
+    100106: Street Sweeper X_r01
+    100108: Street Sweeper X_r02
+    100110: Street Sweeper Z_l01
+    100112: Street Sweeper Z_l02
+    100114: Street Sweeper Z_r01
+    100116: Street Sweeper Z_r02
+    100118: //RootNode
+    400000: Street Sweeper Bip01
+    400002: Street Sweeper Bip01 Spine2
+    400004: Street Sweeper Broom Bone01_
+    400006: Street Sweeper Broom Bone02
+    400008: Street Sweeper Broom Bone03
+    400010: Street Sweeper Broom Contrl
+    400012: Street Sweeper Head
+    400014: Street Sweeper HeadNub
+    400016: Street Sweeper L Calf
+    400018: Street Sweeper L Clavicle
+    400020: Street Sweeper L Finger0
+    400022: Street Sweeper L Finger01
+    400024: Street Sweeper L Finger0Nub
+    400026: Street Sweeper L Finger1
+    400028: Street Sweeper L Finger11
+    400030: Street Sweeper L Finger1Nub
+    400032: Street Sweeper L Foot
+    400034: Street Sweeper L Forearm
+    400036: Street Sweeper L Hand
+    400038: Street Sweeper L Thigh
+    400040: Street Sweeper L Toe0
+    400042: Street Sweeper L Toe0Nub
+    400044: Street Sweeper L UpperArm
+    400046: Street Sweeper Neck
+    400048: Street Sweeper Pelvis
+    400050: Street Sweeper R Calf
+    400052: Street Sweeper R Clavicle
+    400054: Street Sweeper R Finger0
+    400056: Street Sweeper R Finger01
+    400058: Street Sweeper R Finger0Nub
+    400060: Street Sweeper R Finger1
+    400062: Street Sweeper R Finger11
+    400064: Street Sweeper R Finger1Nub
+    400066: Street Sweeper R Foot
+    400068: Street Sweeper R Forearm
+    400070: Street Sweeper R Hand
+    400072: Street Sweeper R Thigh
+    400074: Street Sweeper R Toe0
+    400076: Street Sweeper R Toe0Nub
+    400078: Street Sweeper R UpperArm
+    400080: Street Sweeper Spine
+    400082: Street Sweeper Spine1
+    400084: Street Sweeper talk chin
+    400086: Street Sweeper talk lower lip01
+    400088: Street Sweeper talk lower lip02
+    400090: Street Sweeper talk mouth l01
+    400092: Street Sweeper talk mouth l02
+    400094: Street Sweeper talk mouth r01
+    400096: Street Sweeper talk mouth r02
+    400098: Street Sweeper talk upper lip01
+    400100: Street Sweeper talk upper lip02
+    400102: Street Sweeper X_l01
+    400104: Street Sweeper X_l02
+    400106: Street Sweeper X_r01
+    400108: Street Sweeper X_r02
+    400110: Street Sweeper Z_l01
+    400112: Street Sweeper Z_l02
+    400114: Street Sweeper Z_r01
+    400116: Street Sweeper Z_r02
+    400118: //RootNode
+    7400000: StreetSweeper@idle02
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

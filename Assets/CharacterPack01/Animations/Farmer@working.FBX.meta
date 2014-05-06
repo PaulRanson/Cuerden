@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 70180f1b600950444a63fa352199633c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Farmer Bip01
+    100002: Farmer Head
+    100004: Farmer HeadNub
+    100006: Farmer L Calf
+    100008: Farmer L Clavicle
+    100010: Farmer L Finger0
+    100012: Farmer L Finger01
+    100014: Farmer L Finger0Nub
+    100016: Farmer L Finger1
+    100018: Farmer L Finger11
+    100020: Farmer L Finger1Nub
+    100022: Farmer L Foot
+    100024: Farmer L Forearm
+    100026: Farmer L Hand
+    100028: Farmer L Thigh
+    100030: Farmer L Toe0
+    100032: Farmer L Toe0Nub
+    100034: Farmer L UpperArm
+    100036: Farmer Neck
+    100038: Farmer Pelvis
+    100040: Farmer R Calf
+    100042: Farmer R Clavicle
+    100044: Farmer R Finger0
+    100046: Farmer R Finger01
+    100048: Farmer R Finger0Nub
+    100050: Farmer R Finger1
+    100052: Farmer R Finger11
+    100054: Farmer R Finger1Nub
+    100056: Farmer R Foot
+    100058: Farmer R Forearm
+    100060: Farmer R Hand
+    100062: Farmer R Thigh
+    100064: Farmer R Toe0
+    100066: Farmer R Toe0Nub
+    100068: Farmer R UpperArm
+    100070: Farmer Spine
+    100072: Farmer Spine1
+    100074: Farmer Spine2
+    100076: Farmer talk chin
+    100078: Farmer talk lower lip01
+    100080: Farmer talk lower lip02
+    100082: Farmer talk mouth l01
+    100084: Farmer talk mouth l02
+    100086: Farmer talk mouth r01
+    100088: Farmer talk mouth r02
+    100090: Farmer talk upper lip01
+    100092: Farmer talk upper lip02
+    100094: Farmer X_l01
+    100096: Farmer X_l02
+    100098: Farmer X_r01
+    100100: Farmer X_r02
+    100102: Farmer Z_l01
+    100104: Farmer Z_l02
+    100106: Farmer Z_r01
+    100108: Farmer Z_r02
+    100110: //RootNode
+    400000: Farmer Bip01
+    400002: Farmer Head
+    400004: Farmer HeadNub
+    400006: Farmer L Calf
+    400008: Farmer L Clavicle
+    400010: Farmer L Finger0
+    400012: Farmer L Finger01
+    400014: Farmer L Finger0Nub
+    400016: Farmer L Finger1
+    400018: Farmer L Finger11
+    400020: Farmer L Finger1Nub
+    400022: Farmer L Foot
+    400024: Farmer L Forearm
+    400026: Farmer L Hand
+    400028: Farmer L Thigh
+    400030: Farmer L Toe0
+    400032: Farmer L Toe0Nub
+    400034: Farmer L UpperArm
+    400036: Farmer Neck
+    400038: Farmer Pelvis
+    400040: Farmer R Calf
+    400042: Farmer R Clavicle
+    400044: Farmer R Finger0
+    400046: Farmer R Finger01
+    400048: Farmer R Finger0Nub
+    400050: Farmer R Finger1
+    400052: Farmer R Finger11
+    400054: Farmer R Finger1Nub
+    400056: Farmer R Foot
+    400058: Farmer R Forearm
+    400060: Farmer R Hand
+    400062: Farmer R Thigh
+    400064: Farmer R Toe0
+    400066: Farmer R Toe0Nub
+    400068: Farmer R UpperArm
+    400070: Farmer Spine
+    400072: Farmer Spine1
+    400074: Farmer Spine2
+    400076: Farmer talk chin
+    400078: Farmer talk lower lip01
+    400080: Farmer talk lower lip02
+    400082: Farmer talk mouth l01
+    400084: Farmer talk mouth l02
+    400086: Farmer talk mouth r01
+    400088: Farmer talk mouth r02
+    400090: Farmer talk upper lip01
+    400092: Farmer talk upper lip02
+    400094: Farmer X_l01
+    400096: Farmer X_l02
+    400098: Farmer X_r01
+    400100: Farmer X_r02
+    400102: Farmer Z_l01
+    400104: Farmer Z_l02
+    400106: Farmer Z_r01
+    400108: Farmer Z_r02
+    400110: //RootNode
+    7400000: Farmer@working
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

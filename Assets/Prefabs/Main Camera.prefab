@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 20: {fileID: 2000000}
+  - 92: {fileID: 9200000}
+  - 124: {fileID: 12400000}
+  - 81: {fileID: 8100000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .00999999978
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+  m_OcclusionCulling: 1
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!92 &9200000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46535b7816492e44ea56a28fa521c58c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  collisionBuffer: .200000003
+  collisionAlphaLayers:
+    serializedVersion: 2
+    m_Bits: 2
+  collisionAlpha: .150000006
+  collisionFadeSpeed: 10
+  target: {fileID: 0}
+  targetTag: 
+  targetOffset: {x: 0, y: 0, z: 0}
+  useTargetAxis: 0
+  allowEdgeMovement: 0
+  allowEdgeKeys: 0
+  lockToTarget: 1
+  limitBounds: 0
+  boundOrigin: {x: 0, y: 0, z: 0}
+  boundSize: {x: 0, y: 0, z: 0}
+  edgePadding: 20
+  scrollSpeed: 10
+  keyFollowTarget: 32
+  keyMoveUp: 119
+  keyMoveDown: 115
+  keyMoveLeft: 97
+  keyMoveRight: 100
+  showEdges: 0
+  edgeTexture: {fileID: 0}
+  allowRotation: 0
+  invertRotationX: 0
+  invertRotationY: 0
+  allowRotationLeft: 1
+  allowRotationMiddle: 1
+  allowRotationRight: 1
+  originRotation: {x: 180, y: 35}
+  returnToOrigin: 0
+  stayBehindTarget: 0
+  setOriginLeft: 0
+  setOriginMiddle: 0
+  setOriginRight: 0
+  minAngle: -90
+  maxAngle: 90
+  rotationSmoothing: 5
+  rotationSensitivity: {x: 5, y: 5}
+  lockCursor: 1
+  lockLeft: 1
+  lockMiddle: 1
+  lockRight: 1
+  allowRotationKeys: 1
+  keyRotateUp: 261
+  keyRotateDown: 258
+  keyRotateLeft: 257
+  keyRotateRight: 259
+  rotationKeySensitivity: {x: 3, y: 3}
+  rotateObjects: 0
+  objectsToRotate:
+  - {fileID: 0}
+  rotateObjectsLeft: 0
+  rotateObjectsMiddle: 0
+  rotateObjectsRight: 0
+  allowZoom: 1
+  distance: 10
+  minDistance: 5
+  maxDistance: 15
+  zoomSpeed: 1
+  zoomSmoothing: 16
+  invertZoom: 0
+  fadeObjects: 0
+  fadeDistance: 1.5
+  objectsToFade:
+  - {fileID: 0}
+  allowZoomKeys: 1
+  keyZoomIn: 278
+  keyZoomOut: 279
+  keyZoomDelay: .5
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
