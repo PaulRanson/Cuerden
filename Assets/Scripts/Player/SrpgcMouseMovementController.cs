@@ -87,7 +87,7 @@ public class SrpgcMouseMovementController : MonoBehaviour
 					position = Input.mousePosition;
 				}
 			}
-
+			//
 			if(canMove)
 			{
 				_destinationReached = false;
