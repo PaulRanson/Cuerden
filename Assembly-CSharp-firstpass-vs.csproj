@@ -48,8 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
      <Compile Include="Assets\Standard Assets\QuestionEvent.cs" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-Lighted-Illum.shader" />
      <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Scripts\Simple RPG Camera\Documentation\readme.txt" />
@@ -57,23 +55,13 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Construction_site_props\readme.txt" />
      <None Include="Assets\CharacterPack01\Meshes\MAX-Files\readme.txt" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-Lighted-Illum-Transparent.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-LightedOutline-Illum-Transparent.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\ToonTerrain.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-LightedOutline.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\CharacterPack01\info.txt" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-LightedOutline-Transparent.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-LightedOutline-Illum.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Construction Set\Readme.txt" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-BasicOutline-Transparent.shader" />
-     <None Include="Assets\PhatRobit\Demos\SRPGCSources\Shaders\Toony-Lighted-Transparent.shader" />
      <None Include="Assets\Scripts\Simple RPG Camera\Documentation\changelog.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
